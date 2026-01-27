@@ -1,11 +1,11 @@
-#include<iostream>
-using namespace std;
-int main() {
-    int t;
-    cin >> t;
+/**
+ * Author : Akshay
+ * Platform : CodeForces
+ * Problem : 
+ */
 
-
-    while(t--){
-        
-    }
-}
+ #include<iostream>
+ using namespace std;
+ int main() {
+    
+ }
