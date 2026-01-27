@@ -1,0 +1,67 @@
+// Upsolve div 4 contests
+// Solve A2OJ Ladders which is the best A2OJ ladder 
+// Get good at STL
+
+// make notes of the new concepts, 
+// upsolve the contest and maybe get better
+
+// Probably i will learn more using codechef / codeforces 
+
+// Upsolve 1017
+
+
+// #include<vector>
+// #include<iostream>
+// #include<algorithm>
+// using namespace std;
+// int main(){ 
+//     int test;
+//     cin >> test;
+//     while(test--){
+//         int n, k;
+//         cin >> n >> k;
+//         int mini = INT_MAX;
+//         int maxi = INT_MIN;
+//         vector<int> nline(n);
+//         for(int i = 0; i < n;i++) {
+//             cin >> nline[i];
+//             if(nline[i] > maxi){
+//                 maxi = nline[i];
+//             }
+//             if(nline[i] < mini){
+//                 mini = nline[i];
+//             }
+//         }
+
+//         for(int i = mini; i<= maxi;i++){
+//             int step = 0;
+//             int fuel = i;
+//             int count = 0;
+//             while(count <= 2 * k){
+//                 step += fuel;
+//                 count += fuel;
+//                 if(step <= k){
+//                 if(binary_search(nline.begin(), nline.end(), step)){
+//                     fuel = i;
+//                     step = step + i;
+//                 }else{
+//                     fuel--;
+//                 }
+//             }
+//             else {
+//                 if(binary_search(nline.begin(), nline.end(), step)){
+//                     fuel = i;
+//                     step = step - i;
+//                 }else{
+//                     fuel--;
+//                 }
+//             }
+
+//             if(step == 0){
+//                 cout << fuel << endl;
+//                 break;
+//             }
+//             }
+//         }
+
+//     }
