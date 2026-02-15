@@ -1,11 +1,16 @@
 /**
- * Author : Akshay
- * Platform : CodeForces
- * Problem : 
+ * Author: Akshay S
+ * Platform: CodeForces
  */
 
- #include<iostream>
- using namespace std;
- int main() {
-    
- }
+
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+
+
+    return 0;
+}
